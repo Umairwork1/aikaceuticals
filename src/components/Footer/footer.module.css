@@ -1,0 +1,110 @@
+.container {
+  border-top: 0.5px solid black;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+
+.logo-container {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 0.5px solid black;
+  width: 33%;
+}
+
+.lang-container {
+  padding: 10px 0;
+  border: 0px solid black;
+}
+
+.lang-head {
+  font-weight: normal;
+  font-size: 17px;
+  color: #192955;
+  transition: 0.4s;
+}
+
+.lang-list {
+  list-style-type: none;
+  border: 0px solid black;
+  padding-inline-start: 0px;
+  line-height: 25px;
+}
+
+.lang-list li {
+  border: 0px solid black;
+  margin: 0;
+  padding: 10;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  font-weight: normal;
+  font-size: 17px;
+  color: #192955;
+  transition: 0.4s;
+}
+
+.lang-list:hover li {
+  opacity: 0.4;
+}
+
+.lang-list li:hover {
+  opacity: 1;
+}
+
+.desc-container {
+  flex: 1;
+  border: 0px solid black;
+  height: 100%;
+}
+
+.contact-container {
+  border-bottom: 0.5px solid black;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact a {
+  padding: 10px;
+  font-size: 24px;
+  color: #192955;
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+}
+
+.social {
+  border: 0px solid black;
+  padding: 10px;
+  background: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: revert;
+}
+
+.desc {
+  padding: 50px;
+}
+.desc p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3e3e3e;
+}
+
+.desc p span {
+  font-weight: 900;
+}
+
+.divider {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}

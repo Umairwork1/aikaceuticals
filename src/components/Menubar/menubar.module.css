@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border: 0px solid black;
+}
+
+.logo-container {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid black;
+}
+
+.menu {
+  font-size: 13.5px;
+  margin: 0 10px;
+  color: #484848;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.divider {
+  border: 1px solid #484848;
+  height: 25px;
+}
+
+.lang-button {
+  margin: 0 10px;
+  border: 1px solid #484848;
+  color: #484848;
+  border-radius: 10px;
+  padding: 5px;
+}

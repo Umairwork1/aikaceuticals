@@ -1,5 +1,21 @@
+html {
+  /* colors */
+  --blue: rgb(25,26,130);
+
+  /* spacing */
+  --margin: 100px;
+  --padding: 5px;
+  --shadow: 5px;
+
+  /* font sizes */
+  --heading: 24px;
+  --body: 16px;
+
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   overflow-x: hidden;
 }
+

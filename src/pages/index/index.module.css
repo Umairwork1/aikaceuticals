@@ -1,0 +1,23 @@
+.container {
+  margin: var(--margin);
+}
+.title {
+  font-size: var(--heading);
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.link-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.products-container {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}

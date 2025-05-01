@@ -10,7 +10,8 @@ export const menus = [
   //   subMenu: [],
   // },
   // { url: '/reverse-osmosis', title: 'Reverse Osmosis', subMenu: [] },
-  { url: '/support', title: 'Technical Support', subMenu: [] },
+  { url: '/spare-parts', title: 'Spare Parts', subMenu: [] },
+  { url: '/hd-used-machines', title: 'HD Used Machines', subMenu: [] },
   { url: '/contact-us', title: 'Contact', subMenu: [] },
   // { url: '/blog', title: 'Blog', subMenu: [] },
 ];

@@ -22,14 +22,16 @@ export default function Index() {
           everywhere and for everyone.
         </p>
         <div className={classes['link-container']}>
-          <Heading text="Get to Know Us Closer" />
+          <a href="/contact-us">
+            <Heading text="Get to Know Us Closer" />
+          </a>
           <img width="25px" height="25px" src={arrow} />
         </div>
-        <div className={classes['products-container']}>
+        {/* <div className={classes['products-container']}>
           {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => (
             <Product />
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -21,3 +21,14 @@ body {
   overflow-x: hidden;
 }
 
+p, li {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #525252;
+}
+
+b  {
+  color: #525252;
+}
+

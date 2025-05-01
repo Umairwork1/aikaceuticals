@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .products-container {
   margin: 50px 0px;
   display: flex;

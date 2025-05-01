@@ -11,16 +11,30 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as SparePartsImport } from './routes/spare-parts'
 import { Route as LogisticsAndStorageImport } from './routes/logistics-and-storage'
+import { Route as HdUsedMachinesImport } from './routes/hd-used-machines'
 import { Route as ContactUsImport } from './routes/contact-us'
 import { Route as AboutUsImport } from './routes/about-us'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
 
+const SparePartsRoute = SparePartsImport.update({
+  id: '/spare-parts',
+  path: '/spare-parts',
+  getParentRoute: () => rootRoute,
+} as any)
+
 const LogisticsAndStorageRoute = LogisticsAndStorageImport.update({
   id: '/logistics-and-storage',
   path: '/logistics-and-storage',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const HdUsedMachinesRoute = HdUsedMachinesImport.update({
+  id: '/hd-used-machines',
+  path: '/hd-used-machines',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -67,11 +81,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactUsImport
       parentRoute: typeof rootRoute
     }
+    '/hd-used-machines': {
+      id: '/hd-used-machines'
+      path: '/hd-used-machines'
+      fullPath: '/hd-used-machines'
+      preLoaderRoute: typeof HdUsedMachinesImport
+      parentRoute: typeof rootRoute
+    }
     '/logistics-and-storage': {
       id: '/logistics-and-storage'
       path: '/logistics-and-storage'
       fullPath: '/logistics-and-storage'
       preLoaderRoute: typeof LogisticsAndStorageImport
+      parentRoute: typeof rootRoute
+    }
+    '/spare-parts': {
+      id: '/spare-parts'
+      path: '/spare-parts'
+      fullPath: '/spare-parts'
+      preLoaderRoute: typeof SparePartsImport
       parentRoute: typeof rootRoute
     }
   }
@@ -83,14 +111,18 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about-us': typeof AboutUsRoute
   '/contact-us': typeof ContactUsRoute
+  '/hd-used-machines': typeof HdUsedMachinesRoute
   '/logistics-and-storage': typeof LogisticsAndStorageRoute
+  '/spare-parts': typeof SparePartsRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about-us': typeof AboutUsRoute
   '/contact-us': typeof ContactUsRoute
+  '/hd-used-machines': typeof HdUsedMachinesRoute
   '/logistics-and-storage': typeof LogisticsAndStorageRoute
+  '/spare-parts': typeof SparePartsRoute
 }
 
 export interface FileRoutesById {
@@ -98,15 +130,36 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about-us': typeof AboutUsRoute
   '/contact-us': typeof ContactUsRoute
+  '/hd-used-machines': typeof HdUsedMachinesRoute
   '/logistics-and-storage': typeof LogisticsAndStorageRoute
+  '/spare-parts': typeof SparePartsRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about-us' | '/contact-us' | '/logistics-and-storage'
+  fullPaths:
+    | '/'
+    | '/about-us'
+    | '/contact-us'
+    | '/hd-used-machines'
+    | '/logistics-and-storage'
+    | '/spare-parts'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about-us' | '/contact-us' | '/logistics-and-storage'
-  id: '__root__' | '/' | '/about-us' | '/contact-us' | '/logistics-and-storage'
+  to:
+    | '/'
+    | '/about-us'
+    | '/contact-us'
+    | '/hd-used-machines'
+    | '/logistics-and-storage'
+    | '/spare-parts'
+  id:
+    | '__root__'
+    | '/'
+    | '/about-us'
+    | '/contact-us'
+    | '/hd-used-machines'
+    | '/logistics-and-storage'
+    | '/spare-parts'
   fileRoutesById: FileRoutesById
 }
 
@@ -114,14 +167,18 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutUsRoute: typeof AboutUsRoute
   ContactUsRoute: typeof ContactUsRoute
+  HdUsedMachinesRoute: typeof HdUsedMachinesRoute
   LogisticsAndStorageRoute: typeof LogisticsAndStorageRoute
+  SparePartsRoute: typeof SparePartsRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutUsRoute: AboutUsRoute,
   ContactUsRoute: ContactUsRoute,
+  HdUsedMachinesRoute: HdUsedMachinesRoute,
   LogisticsAndStorageRoute: LogisticsAndStorageRoute,
+  SparePartsRoute: SparePartsRoute,
 }
 
 export const routeTree = rootRoute
@@ -137,7 +194,9 @@ export const routeTree = rootRoute
         "/",
         "/about-us",
         "/contact-us",
-        "/logistics-and-storage"
+        "/hd-used-machines",
+        "/logistics-and-storage",
+        "/spare-parts"
       ]
     },
     "/": {
@@ -149,8 +208,14 @@ export const routeTree = rootRoute
     "/contact-us": {
       "filePath": "contact-us.tsx"
     },
+    "/hd-used-machines": {
+      "filePath": "hd-used-machines.tsx"
+    },
     "/logistics-and-storage": {
       "filePath": "logistics-and-storage.tsx"
+    },
+    "/spare-parts": {
+      "filePath": "spare-parts.tsx"
     }
   }
 }

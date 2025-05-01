@@ -11,14 +11,28 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as AboutImport } from './routes/about'
+import { Route as LogisticsAndStorageImport } from './routes/logistics-and-storage'
+import { Route as ContactUsImport } from './routes/contact-us'
+import { Route as AboutUsImport } from './routes/about-us'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
 
-const AboutRoute = AboutImport.update({
-  id: '/about',
-  path: '/about',
+const LogisticsAndStorageRoute = LogisticsAndStorageImport.update({
+  id: '/logistics-and-storage',
+  path: '/logistics-and-storage',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const ContactUsRoute = ContactUsImport.update({
+  id: '/contact-us',
+  path: '/contact-us',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const AboutUsRoute = AboutUsImport.update({
+  id: '/about-us',
+  path: '/about-us',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -39,11 +53,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutImport
+    '/about-us': {
+      id: '/about-us'
+      path: '/about-us'
+      fullPath: '/about-us'
+      preLoaderRoute: typeof AboutUsImport
+      parentRoute: typeof rootRoute
+    }
+    '/contact-us': {
+      id: '/contact-us'
+      path: '/contact-us'
+      fullPath: '/contact-us'
+      preLoaderRoute: typeof ContactUsImport
+      parentRoute: typeof rootRoute
+    }
+    '/logistics-and-storage': {
+      id: '/logistics-and-storage'
+      path: '/logistics-and-storage'
+      fullPath: '/logistics-and-storage'
+      preLoaderRoute: typeof LogisticsAndStorageImport
       parentRoute: typeof rootRoute
     }
   }
@@ -53,37 +81,47 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about-us': typeof AboutUsRoute
+  '/contact-us': typeof ContactUsRoute
+  '/logistics-and-storage': typeof LogisticsAndStorageRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about-us': typeof AboutUsRoute
+  '/contact-us': typeof ContactUsRoute
+  '/logistics-and-storage': typeof LogisticsAndStorageRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about-us': typeof AboutUsRoute
+  '/contact-us': typeof ContactUsRoute
+  '/logistics-and-storage': typeof LogisticsAndStorageRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about'
+  fullPaths: '/' | '/about-us' | '/contact-us' | '/logistics-and-storage'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about'
-  id: '__root__' | '/' | '/about'
+  to: '/' | '/about-us' | '/contact-us' | '/logistics-and-storage'
+  id: '__root__' | '/' | '/about-us' | '/contact-us' | '/logistics-and-storage'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
+  AboutUsRoute: typeof AboutUsRoute
+  ContactUsRoute: typeof ContactUsRoute
+  LogisticsAndStorageRoute: typeof LogisticsAndStorageRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
+  AboutUsRoute: AboutUsRoute,
+  ContactUsRoute: ContactUsRoute,
+  LogisticsAndStorageRoute: LogisticsAndStorageRoute,
 }
 
 export const routeTree = rootRoute
@@ -97,14 +135,22 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/about"
+        "/about-us",
+        "/contact-us",
+        "/logistics-and-storage"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/about": {
-      "filePath": "about.tsx"
+    "/about-us": {
+      "filePath": "about-us.tsx"
+    },
+    "/contact-us": {
+      "filePath": "contact-us.tsx"
+    },
+    "/logistics-and-storage": {
+      "filePath": "logistics-and-storage.tsx"
     }
   }
 }

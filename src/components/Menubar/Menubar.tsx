@@ -15,9 +15,9 @@ export default function Menubar(props: MenuProps) {
             {title}
           </Link>
         ))}
-        <hr className={classes['divider']} />
-        <span className={classes['lang-button']}>EN</span>
+        {/* <hr className={classes['divider']} /> */}
       </div>
+      <span className={classes['lang-button']}>EN</span>
     </div>
   );
 }

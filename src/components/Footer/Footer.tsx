@@ -39,7 +39,7 @@ export default function Footer() {
             partners in the field of hemodialysis equipment manufacturing,
             distribution, and services since 2015. Drawing upon years of
             accumulated experience and extensive R.D. efforts, our company has
-            proudly established its brand, “GLT."
+            proudly established its brand.
           </p>
           <p>
             © Copyright 2025 <span>Aikaceuticals.</span> All rights reserved.

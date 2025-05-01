@@ -2,13 +2,14 @@ import banner from '../../assets/banner.jpg';
 import arrow from '../../assets/arrow.svg';
 import classes from './index.module.css';
 import Product from '../../components/Product/Product';
+import Heading from '../../components/Heading/Heading';
 
 export default function Index() {
   return (
     <>
       <img width="100%" height="auto" src={banner} />
       <div className={classes['container']}>
-        <p className={classes['title']}>Aikaceuticals Medical</p>
+        <Heading text="Aikaceuticals Medical" />
         <p>
           Where expertise in dialysis consumables meets innovative solutions. As
           a leading European manufacturer and distributor in the industry, we
@@ -21,7 +22,7 @@ export default function Index() {
           everywhere and for everyone.
         </p>
         <div className={classes['link-container']}>
-          <a className={classes['title']}>Get to Know Us Closer</a>
+          <Heading text="Get to Know Us Closer" />
           <img width="25px" height="25px" src={arrow} />
         </div>
         <div className={classes['products-container']}>

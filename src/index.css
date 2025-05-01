@@ -1,6 +1,8 @@
 html {
   /* colors */
   --blue: rgb(25,26,130);
+  --grey: #fafafa;
+  --black: black;
 
   /* spacing */
   --margin: 100px;

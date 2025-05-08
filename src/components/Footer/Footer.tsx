@@ -4,19 +4,27 @@ import instagram from '../../assets/instagram.svg';
 import x from '../../assets/x.svg';
 import facebook from '../../assets/facebook.svg';
 import whatsapp from '../../assets/whatsapp.svg';
+import { useTranslation } from 'react-i18next';
+import { supportedLangues } from '../../i18n';
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
+  const handleLangClick = (lang: string) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem('lang', lang);
+  };
   return (
     <div className={classes['container']}>
       <div className={classes['logo-container']}>
         <Logo width="200px" height="200px" />
         <div className={classes['lang-container']}>
-          <span className={classes['lang-head']}>Languages</span>
+          <span className={classes['lang-head']}>{t('Languages')}</span>
           <ul className={classes['lang-list']}>
-            <li>English</li>
-            <li>Türkçe</li>
-            <li>Spanish</li>
-            <li>عربي</li>
+            {supportedLangues.map((lang, i) => (
+              <li key={i} onClick={() => handleLangClick(lang.value)}>
+                {lang.title}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
@@ -34,15 +42,10 @@ export default function Footer() {
           </div>
         </div>
         <div className={classes['desc']}>
+          <p>{t('footer_company_description')}</p>
           <p>
-            Our company Aikaceuticals, has been dedicated to serving our
-            partners in the field of hemodialysis equipment manufacturing,
-            distribution, and services since 2015. Drawing upon years of
-            accumulated experience and extensive R.D. efforts, our company has
-            proudly established its brand.
-          </p>
-          <p>
-            © Copyright 2025 <span>Aikaceuticals.</span> All rights reserved.
+            © {t('footer_copyright')} 2025 <span>Aikaceuticals.</span>{' '}
+            {t('footer_rights')}.
           </p>
         </div>
       </div>

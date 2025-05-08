@@ -10,7 +10,7 @@
 }
 
 .logo-container {
-  border: 1px solid black;
+  border: 0px solid black;
   display: flex;
   align-items: center;
   justify-content: center;

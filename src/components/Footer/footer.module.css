@@ -54,6 +54,7 @@
 
 .lang-list li:hover {
   opacity: 1;
+  cursor: default;
 }
 
 .desc-container {

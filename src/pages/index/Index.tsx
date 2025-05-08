@@ -1,29 +1,21 @@
 import banner from '../../assets/banner.jpg';
 import arrow from '../../assets/arrow.svg';
 import classes from './index.module.css';
-import Product from '../../components/Product/Product';
+// import Product from '../../components/Product/Product';
 import Heading from '../../components/Heading/Heading';
+import { useTranslation } from 'react-i18next';
 
 export default function Index() {
+  const { t } = useTranslation();
   return (
     <>
       <img width="100%" height="auto" src={banner} />
       <div className={classes['container']}>
-        <Heading text="Aikaceuticals Medical" />
-        <p>
-          Where expertise in dialysis consumables meets innovative solutions. As
-          a leading European manufacturer and distributor in the industry, we
-          pride ourselves on providing top-quality products tailored to the
-          unique needs of our partners. We deliver a comprehensive range of
-          dialysis consumables, designed to optimize patient care and enhance
-          treatment outcomes. With Aikaceuticals Medical, you're not just
-          getting consumables – you're gaining a trusted partner dedicated to
-          your success. Join us in shaping the future of dialysis care,
-          everywhere and for everyone.
-        </p>
+        <Heading text={t('Aikaceuticals Medical')} />
+        <p>{t('home_description')}</p>
         <div className={classes['link-container']}>
           <a href="/contact-us">
-            <Heading text="Get to Know Us Closer" />
+            <Heading text={t('Get to Know Us Closer')} />
           </a>
           <img width="25px" height="25px" src={arrow} />
         </div>

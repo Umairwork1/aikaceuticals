@@ -55,11 +55,11 @@
   outline: 0 !important;
   font-weight: 500;
   font-size: 18px;
-  color: var(--blue);
+  color: var(--main);
 }
 
 .submit-button:hover {
   color: #ffffff;
-  background: var(--blue);
+  background: var(--main);
   cursor: pointer;
 }

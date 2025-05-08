@@ -12,8 +12,8 @@
 }
 
 .container:hover {
-  border-color: var(--blue);
-  box-shadow: 1px 1px 5px 1px var(--blue);
+  border-color: var(--main);
+  box-shadow: 1px 1px 5px 1px var(--main);
   .review-button {
     visibility: visible;
   }

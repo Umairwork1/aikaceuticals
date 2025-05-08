@@ -32,6 +32,11 @@
   font-weight: 600;
 }
 
+.menu:hover {
+  color: var(--main);
+  transition: 0.4s;
+}
+
 .divider {
   border: 1px solid #484848;
   height: 25px;

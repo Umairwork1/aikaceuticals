@@ -1,6 +1,9 @@
 html {
+
+  scrollbar-color: var(--main) var(--grey);
+  scrollbar-width: thin;
   /* colors */
-  --blue: rgb(25,26,130);
+  --main: rgb(79,179,67);
   --grey: #fafafa;
   --black: black;
 
@@ -21,6 +24,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 p, li {
   font-weight: normal;
   font-size: 16px;
@@ -31,4 +38,5 @@ p, li {
 b  {
   color: #525252;
 }
+
 

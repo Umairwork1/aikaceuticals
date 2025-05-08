@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 import Heading from '../../components/Heading/Heading';
@@ -8,21 +8,21 @@ import classes from './contact.module.css';
 
 export default function Contact() {
   const { t } = useTranslation();
-  const form = useRef<HTMLFormElement>();
+  const form = useRef<HTMLFormElement>(null);
   const [formState, setFormState] = useState({
     message: '',
     loading: false,
     status: 'idle',
   });
 
-  const sendEmail = async (e) => {
+  const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormState((st) => ({ ...st, loading: true }));
     try {
       await emailjs.sendForm(
         'YOUR_SERVICE_ID',
         'YOUR_TEMPLATE_ID',
-        form.current,
+        form.current as HTMLFormElement,
         {
           publicKey: 'YOUR_PUBLIC_KEY',
         }

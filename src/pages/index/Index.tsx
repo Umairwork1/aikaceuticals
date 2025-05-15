@@ -1,7 +1,12 @@
 import banner from '../../assets/banner.jpg';
 import arrow from '../../assets/arrow.svg';
+import avf_needless from '../../assets/products/AVF Needless.jpeg';
+import blood_tubing_line from '../../assets/products/Blood Tubing Line.jpeg';
+import dialysis_chair from '../../assets/products/Dialysis Chair.jpeg';
+import dialysis_machine from '../../assets/products/Dialysis Machine.jpeg';
+import disinfectants from '../../assets/products/Disinfectants.jpeg';
 import classes from './index.module.css';
-// import Product from '../../components/Product/Product';
+import Product from '../../components/Product/Product';
 import Heading from '../../components/Heading/Heading';
 import { useTranslation } from 'react-i18next';
 
@@ -19,11 +24,13 @@ export default function Index() {
           </a>
           <img width="25px" height="25px" src={arrow} />
         </div>
-        {/* <div className={classes['products-container']}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => (
-            <Product />
-          ))}
-        </div> */}
+        <div className={classes['products-container']}>
+          <Product name="AVF Needless" image={avf_needless} />
+          <Product name="Blood Tubing Line" image={blood_tubing_line} />
+          <Product name="Dialysis Chair" image={dialysis_chair} />
+          <Product name="Dialysis Machine" image={dialysis_machine} />
+          <Product name="Disinfectants" image={disinfectants} />
+        </div>
       </div>
     </>
   );

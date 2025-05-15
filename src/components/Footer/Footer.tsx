@@ -5,14 +5,10 @@ import x from '../../assets/x.svg';
 import facebook from '../../assets/facebook.svg';
 import whatsapp from '../../assets/whatsapp.svg';
 import { useTranslation } from 'react-i18next';
-import { supportedLangues } from '../../i18n';
+import { supportedLangues, handleLangClick } from '../../i18n';
 
 export default function Footer() {
-  const { t, i18n } = useTranslation();
-  const handleLangClick = (lang: string) => {
-    i18n.changeLanguage(lang);
-    localStorage.setItem('lang', lang);
-  };
+  const { t } = useTranslation();
   return (
     <div className={classes['container']}>
       <div className={classes['logo-container']}>

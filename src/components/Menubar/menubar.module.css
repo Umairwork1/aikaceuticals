@@ -43,9 +43,42 @@
 }
 
 .lang-button {
-  margin: 0 10px;
+  margin: 0 50px;
   border: 1px solid #484848;
   color: #484848;
   border-radius: 10px;
   padding: 5px;
+}
+
+.lang-button:hover {
+  & .lang-popup {
+    display: block;
+  }
+}
+
+.lang-popup {
+  display: none;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: -25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: var(--main);
+  border-radius: var(--radius);
+}
+
+.lang-popup ul {
+  list-style: none;
+  list-style-type: none;
+  border: 0px solid black;
+  padding-inline-start: 0px;
+}
+
+
+.lang-popup ul li {
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
 }

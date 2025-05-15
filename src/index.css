@@ -11,6 +11,7 @@ html {
   --margin: 100px;
   --padding: 5px;
   --shadow: 5px;
+  --radius: 5px;
 
   /* font sizes */
   --heading: 24px;

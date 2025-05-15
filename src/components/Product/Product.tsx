@@ -1,14 +1,16 @@
 import classes from './product.module.css';
 
-export default function Product() {
+type ProductProps = {
+  name: string;
+  image: string;
+};
+
+export default function Product({ name, image }: ProductProps) {
   return (
     <div className={classes['container']}>
-      <img
-        className={classes['img']}
-        src="https://www.galatamedical.com/Upload/GLT_Catheter.png"
-      />
-      <h4 className={classes['name']}>Hemodialysis Catheter</h4>
-      <a className={classes['review-button']}>Review</a>
+      <img className={classes['img']} src={image} alt={name} />
+      <h4 className={classes['name']}>{name}</h4>
+      {/* <a className={classes['review-button']}>Review</a> */}
     </div>
   );
 }

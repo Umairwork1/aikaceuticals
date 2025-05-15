@@ -9,6 +9,11 @@ export const supportedLangues = [
   { title: 'عربي', value: 'ar' },
 ];
 
+export const handleLangClick = (lang: string) => {
+  i18n.changeLanguage(lang);
+  localStorage.setItem('lang', lang);
+};
+
 i18n.use(initReactI18next).init({
   resources: languages,
   lng: localStorage.getItem('lang') || 'en',

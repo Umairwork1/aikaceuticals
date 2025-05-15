@@ -1,6 +1,6 @@
 .container {
-  width: 200px;
-  height: 250px;
+  width: auto;
+  height: auto;
   border: 0.5px solid grey;
   border-radius: 24px;
   display: flex;
@@ -8,7 +8,8 @@
   row-gap: 25px;
   justify-content: center;
   align-items: center;
-  padding: var(--padding);
+  overflow: hidden;
+  padding-bottom: var(--padding);
 }
 
 .container:hover {

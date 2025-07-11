@@ -17,6 +17,7 @@ export default function UsedMachines() {
         </ul>
         <p>{t('hd_used_machines_description6')}</p>
       </div>
+      {/* add 2 images and used our one and one from chatgpt that we create */}
       <div className={classes['img-cell']}></div>
     </div>
   );

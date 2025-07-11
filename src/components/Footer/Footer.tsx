@@ -28,7 +28,7 @@ export default function Footer() {
         <div className={classes['contact-container']}>
           <div className={classes['contact']}>
             <a href="mailto:info@aikaceuticals.com">info@aikaceuticals.com</a>
-            <a href="tel:03001234567">+90 300 1234567</a>
+            <a href="tel:+923001234567">+92 300 1234567</a>
           </div>
           <div className={classes['social']}>
             <img width="50px" height="50px" src={instagram} />

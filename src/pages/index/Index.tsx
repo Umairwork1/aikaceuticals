@@ -1,9 +1,9 @@
 import banner from '../../assets/banner.jpg';
 import arrow from '../../assets/arrow.svg';
-import avf_needless from '../../assets/products/AVF Needless.jpeg';
-import blood_tubing_line from '../../assets/products/Blood Tubing Line.jpeg';
-import dialysis_chair from '../../assets/products/Dialysis Chair.jpeg';
-import dialysis_machine from '../../assets/products/Dialysis Machine.jpeg';
+import avf_needless from '../../assets/products/AVF_Needless.jpeg';
+import blood_tubing_line from '../../assets/products/Blood_Tubing_Line.jpeg';
+import dialysis_chair from '../../assets/products/Dialysis_Chair.jpeg';
+import dialysis_machine from '../../assets/products/Dialysis_Machine.jpeg';
 import disinfectants from '../../assets/products/Disinfectants.jpeg';
 import classes from './index.module.css';
 import Product from '../../components/Product/Product';

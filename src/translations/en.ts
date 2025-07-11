@@ -114,7 +114,7 @@ export const en = {
           medical standards, and ready for clinical use.`,
     hd_used_machines_description2: `Certified Performance`,
     hd_used_machines_description3: `Installation and Technical Support Available`,
-    hd_used_machines_description4: `Brands You Trust – Fresenius, B. Braun, Nipro & More`,
+    hd_used_machines_description4: `Brands You Trust – Fresenius`,
     hd_used_machines_description5: `Affordable Pricing`,
     hd_used_machines_description6: `Whether you're expanding your dialysis center or setting up a new
           facility, our pre-owned machines offer the perfect balance of quality

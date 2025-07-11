@@ -107,7 +107,7 @@ export const ar = {
                         لتلبية المعايير الطبية الصارمة وجاهزة للاستخدام السريري.`,
     hd_used_machines_description2: `أداء معتمد`,
     hd_used_machines_description3: `التثبيت والدعم الفني متوفر`,
-    hd_used_machines_description4: `علامات تجارية تثق بها – فريزينيوس، بي براون، نيبرو والمزيد`,
+    hd_used_machines_description4: `علامات تجارية تثق بها – فريزينيوس`,
     hd_used_machines_description5: `أسعار معقولة`,
     hd_used_machines_description6: `سواء كنت توسع مركز غسيل الكلى الخاص بك أو تنشئ منشأة جديدة،
                         توفر أجهزتنا المستعملة التوازن المثالي بين الجودة والقيمة. تواصل معنا

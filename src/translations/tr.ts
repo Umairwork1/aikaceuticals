@@ -54,7 +54,7 @@ export const tr = {
     hd_used_machines_description1: `Güvenilir, uygun maliyetli diyaliz çözümleri mi arıyorsunuz? Önde gelen küresel markalardan özenle seçilmiş bir kullanılmış hemodiyaliz makineleri yelpazesi sunuyoruz. Her bir ünite tamamen test edilmiş, sıkı tıbbi standartlara uygun olarak yenilenmiş ve klinik kullanıma hazırdır.`,
     hd_used_machines_description2: `Sertifikalı Performans`,
     hd_used_machines_description3: `Kurulum ve Teknik Destek Mevcut`,
-    hd_used_machines_description4: `Güvendiğiniz Markalar – Fresenius, B. Braun, Nipro ve Daha Fazlası`,
+    hd_used_machines_description4: `Güvendiğiniz Markalar – Fresenius`,
     hd_used_machines_description5: `Uygun Fiyatlandırma`,
     hd_used_machines_description6: `Diyaliz merkezinizi genişletiyor veya yeni bir tesis kuruyorsanız, ikinci el makinelerimiz kalite ve değer arasında mükemmel bir denge sunar. Mevcut envanter ve teklifler için bugün bizimle iletişime geçin.`,
     contact_us_heading: 'Hızlı Yardım ve Kolay İletişim',

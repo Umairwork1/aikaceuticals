@@ -124,7 +124,7 @@ export const es = {
                                     para uso clínico.`,
     hd_used_machines_description2: `Rendimiento Certificado`,
     hd_used_machines_description3: `Instalación y Soporte Técnico Disponibles`,
-    hd_used_machines_description4: `Marcas de Confianza – Fresenius, B. Braun, Nipro y Más`,
+    hd_used_machines_description4: `Marcas de Confianza – Fresenius`,
     hd_used_machines_description5: `Precios Asequibles`,
     hd_used_machines_description6: `Ya sea que estés ampliando tu centro de diálisis o estableciendo una
                                     nueva instalación, nuestras máquinas de segunda mano ofrecen el

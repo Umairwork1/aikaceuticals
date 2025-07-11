@@ -18,13 +18,14 @@ export default function Contact() {
   const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormState((st) => ({ ...st, loading: true }));
+
     try {
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        process.env.EMAIL_JS_SERVICE_KEY,
+        process.env.EMAIL_JS_TEMPLATE_KEY,
         form.current as HTMLFormElement,
         {
-          publicKey: 'YOUR_PUBLIC_KEY',
+          publicKey: process.env.EMAIL_JS_PUBLIC_KEY,
         }
       );
       setFormState((st) => ({

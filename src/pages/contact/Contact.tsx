@@ -21,11 +21,11 @@ export default function Contact() {
 
     try {
       await emailjs.sendForm(
-        process.env.EMAIL_JS_SERVICE_KEY,
-        process.env.EMAIL_JS_TEMPLATE_KEY,
+        import.meta.env.VITE_EMAIL_JS_SERVICE_KEY,
+        import.meta.env.VITE_EMAIL_JS_TEMPLATE_KEY,
         form.current as HTMLFormElement,
         {
-          publicKey: process.env.EMAIL_JS_PUBLIC_KEY,
+          publicKey: import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY,
         }
       );
       setFormState((st) => ({
@@ -72,11 +72,13 @@ export default function Contact() {
               <div className={classes['row']}>
                 <Input
                   required
+                  name="name"
                   placeholder={t('Full Name')}
                   onChange={(e) => console.log(e)}
                 />
                 <Input
                   required
+                  name="email"
                   type="email"
                   placeholder={t('Email')}
                   onChange={(e) => console.log(e)}
@@ -85,12 +87,14 @@ export default function Contact() {
               <div className={classes['row']}>
                 <Input
                   required
+                  name="phone"
                   type="tel"
                   placeholder={t('Phone')}
                   onChange={(e) => console.log(e)}
                 />
                 <Input
                   required
+                  name="country"
                   placeholder={t('Country')}
                   onChange={(e) => console.log(e)}
                 />
@@ -98,6 +102,7 @@ export default function Contact() {
               <div className={classes['row']}>
                 <Input
                   required
+                  name="subject"
                   placeholder={t('Subject')}
                   onChange={(e) => console.log(e)}
                 />
@@ -105,6 +110,7 @@ export default function Contact() {
               <div className={classes['row']}>
                 <Textarea
                   required
+                  name="message"
                   placeholder={t('Your Message')}
                   onChange={(e) => console.log(e)}
                 />

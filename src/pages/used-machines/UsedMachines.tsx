@@ -41,7 +41,11 @@ export default function UsedMachines() {
       </div>
       {/* add 2 images and used our one and one from chatgpt that we create */}
       <div className={classes['img-cell']}>
-        <button onClick={handlePreviousImagePreview} type="button">
+        <button
+          className={classes['button']}
+          onClick={handlePreviousImagePreview}
+          type="button"
+        >
           &laquo;
         </button>
         <div className={classes['img-container']}>
@@ -51,7 +55,11 @@ export default function UsedMachines() {
             src={images[img][0]}
           />
         </div>
-        <button onClick={handleNextImagePreview} type="button">
+        <button
+          className={classes['button']}
+          onClick={handleNextImagePreview}
+          type="button"
+        >
           &raquo;
         </button>
       </div>

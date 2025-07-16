@@ -44,18 +44,7 @@ export default function UsedMachines() {
         <button onClick={handlePreviousImagePreview} type="button">
           &laquo;
         </button>
-        <div
-          style={{
-            justifyContent: 'center',
-            alignItems: 'center',
-            display: 'flex',
-            border: '0px solid black',
-            borderRadius: '5px',
-            overflow: 'hidden',
-            height: '100%',
-            width: '100%',
-          }}
-        >
+        <div className={classes['img-container']}>
           <img
             height={images[img][1]}
             width={images[img][2]}

@@ -2,7 +2,7 @@ import classes from './used-machine.module.css';
 import Heading from '../../components/Heading/Heading';
 import { useTranslation } from 'react-i18next';
 import used_machine from '../../assets/machine.png';
-import used_banner from '../../assets/used_banner.png';
+import used_banner from '../../assets/banner.png';
 import { useState } from 'react';
 
 export default function UsedMachines() {

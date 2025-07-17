@@ -24,7 +24,9 @@ export default function Menubar(props: MenuProps) {
   return (
     <div className={classes['container']}>
       <div className={classes['logo-container']}>
-        <Logo />
+        <a href="/">
+          <Logo />
+        </a>
       </div>
       <div className={classes['menu-container']}>
         {props.menus.map(({ title, url }, i) => (

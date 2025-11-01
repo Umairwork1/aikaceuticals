@@ -15,7 +15,7 @@ export const tr = {
     home_description:
       'Diyaliz sarf malzemelerinde uzmanlık ile yenilikçi çözümleri bir araya getiriyoruz. Endüstride önde gelen bir Avrupa üreticisi ve distribütörü olarak, ortaklarımızın benzersiz ihtiyaçlarına göre uyarlanmış yüksek kaliteli ürünler sunmaktan gurur duyuyoruz. Diyaliz bakımını optimize etmek ve tedavi sonuçlarını iyileştirmek için tasarlanmış kapsamlı bir diyaliz sarf malzemeleri yelpazesi sunuyoruz. Aikaceuticals Medikal ile sadece sarf malzemeleri değil, aynı zamanda başarınıza adanmış güvenilir bir ortak kazanıyorsunuz. Diyaliz bakımının geleceğini şekillendirmek için bize katılın, her yerde ve herkes için.',
 
-    about_description1: `Şirketimiz Aikaceuticals Medikal, 2015 yılından bu yana hemodiyaliz ekipmanlarının üretimi, dağıtımı ve hizmetleri alanında ortaklarımıza hizmet vermeye kendini adamıştır. Yılların birikmiş deneyimi ve kapsamlı Ar-Ge çabalarına dayanarak, şirketimiz gururla kendi markasını oluşturmuştur.`,
+    about_description1: `Şirketimiz Aikaceuticals Medikal, 2012 yılından bu yana hemodiyaliz ekipmanlarının üretimi, dağıtımı ve hizmetleri alanında ortaklarımıza hizmet vermeye kendini adamıştır. Yılların birikmiş deneyimi ve kapsamlı Ar-Ge çabalarına dayanarak, şirketimiz gururla kendi markasını oluşturmuştur.`,
     about_description2: `Hem Avrupa'da hem de Türkiye'deki tesislerden faaliyet göstererek, temel diyaliz sarf malzemeleri olan diyalizörler, kan setleri, fistül iğneleri, bikarbonat kartuşları gibi kendi markamız olan diyaliz sarf malzemelerini üretmekte ve dağıtmaktayız. Ayrıca hemodiyaliz tozları ve sıvı çözeltilerini üretmekte ve dağıtmaktayız. Diyaliz merkezlerine, hastanelere ve ortak firmalara doğrudan destek sağlayarak ihale gerekliliklerine uygunluk sağlıyoruz.`,
     about_description3: `Ürün yelpazemiz, sıvı ve toz formda diyaliz çözeltileri, AV Setleri, AV Fistül ve Diyalizörleri içermektedir. Bu ürünler, İstanbul'daki merkezimizden dünya çapındaki distribütör ortaklarımıza tam zamanlı olarak yönetilmekte ve tedarik edilmektedir.`,
     about_description4: `Avrupa standartlarına uygun diyaliz su arıtma sistemleri üreticisi olarak, sadece sarf malzeme portföyümüzle değil, aynı zamanda altyapı ile de diyaliz merkezlerine kapsamlı destek sunuyoruz. Bu, anahtar teslim diyaliz merkezi projeleri, danışmanlık hizmetleri ve tıbbi hizmet danışmanlığını içermektedir.`,
@@ -76,6 +76,6 @@ export const tr = {
 
     footer_rights: 'Tüm hakları saklıdır',
     footer_copyright: 'Telif Hakkı',
-    footer_company_description: `Şirketimiz Aikaceuticals, 2015 yılından bu yana hemodiyaliz ekipmanlarının üretimi, dağıtımı ve hizmetleri alanında ortaklarımıza hizmet vermeye kendini adamıştır. Yılların birikmiş deneyimi ve kapsamlı Ar-Ge çabalarına dayanarak, şirketimiz gururla kendi markasını oluşturmuştur.`,
+    footer_company_description: `Şirketimiz Aikaceuticals, 2012 yılından bu yana hemodiyaliz ekipmanlarının üretimi, dağıtımı ve hizmetleri alanında ortaklarımıza hizmet vermeye kendini adamıştır. Yılların birikmiş deneyimi ve kapsamlı Ar-Ge çabalarına dayanarak, şirketimiz gururla kendi markasını oluşturmuştur.`,
   },
 };

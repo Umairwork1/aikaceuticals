@@ -17,7 +17,7 @@ export const en = {
 
     about_description1: `Our company Aikaceuticals Medical, has been dedicated to serving our
         partners in the field of hemodialysis equipment manufacturing,
-        distribution, and services since 2015. Drawing upon years of accumulated
+        distribution, and services since 2012. Drawing upon years of accumulated
         experience and extensive R&D efforts, our company has proudly
         established its brand."`,
     about_description2: `Operating from facilities both in Europe and Turkey, we specialize in
@@ -140,7 +140,7 @@ export const en = {
     footer_copyright: 'Copyright',
     footer_company_description: `Our company Aikaceuticals, has been dedicated to serving our
             partners in the field of hemodialysis equipment manufacturing,
-            distribution, and services since 2015. Drawing upon years of
+            distribution, and services since 2012. Drawing upon years of
             accumulated experience and extensive R.D. efforts, our company has
             proudly established its brand.`,
   },

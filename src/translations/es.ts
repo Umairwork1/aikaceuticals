@@ -17,7 +17,7 @@ export const es = {
 
     about_description1: `Nuestra empresa, Aikaceuticals Medical, se ha dedicado a servir a
                               nuestros socios en el campo de la fabricación, distribución y servicios
-                              de equipos de hemodiálisis desde 2015. Basándonos en años de experiencia
+                              de equipos de hemodiálisis desde 2012. Basándonos en años de experiencia
                               acumulada y extensos esfuerzos de I+D, nuestra empresa ha establecido
                               con orgullo su marca."`,
     about_description2: `Operando desde instalaciones tanto en Europa como en Turquía, nos
@@ -152,7 +152,7 @@ export const es = {
     footer_copyright: 'Derechos de Autor',
     footer_company_description: `Nuestra empresa, Aikaceuticals, se ha dedicado a servir a nuestros
                                           socios en el campo de la fabricación, distribución y servicios de
-                                          equipos de hemodiálisis desde 2015. Basándonos en años de experiencia
+                                          equipos de hemodiálisis desde 2012. Basándonos en años de experiencia
                                           acumulada y extensos esfuerzos de I+D, nuestra empresa ha establecido
                                           con orgullo su marca.`,
   },

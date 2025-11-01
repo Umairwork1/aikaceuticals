@@ -1,8 +1,5 @@
 import classes from './footer.module.css';
 import Logo from '../Logo/Logo';
-import instagram from '../../assets/instagram.svg';
-import x from '../../assets/x.svg';
-import facebook from '../../assets/facebook.svg';
 import whatsapp from '../../assets/whatsapp.svg';
 import { useTranslation } from 'react-i18next';
 import { supportedLangues, handleLangClick } from '../../i18n';
@@ -12,7 +9,7 @@ export default function Footer() {
   return (
     <div className={classes['container']}>
       <div className={classes['logo-container']}>
-        <Logo width="200px" height="200px" />
+        <Logo width='200px' height='200px' />
         <div className={classes['lang-container']}>
           <span className={classes['lang-head']}>{t('Languages')}</span>
           <ul className={classes['lang-list']}>
@@ -27,15 +24,15 @@ export default function Footer() {
       <div className={classes['desc-container']}>
         <div className={classes['contact-container']}>
           <div className={classes['contact']}>
-            <a href="mailto:info@aikaceuticals.com">info@aikaceuticals.com</a>
-            <a href="tel:+923001234567">+92 300 1234567</a>
+            <a href='mailto:info@aikaceuticals.com'>info@aikaceuticals.com</a>
+            <a href='tel:+92303044441301'>+92 304 4441301</a>
           </div>
           <div className={classes['social']}>
             {/* <img width="50px" height="50px" src={instagram} />
             <img width="50px" height="50px" src={x} />
             <img width="50px" height="50px" src={facebook} /> */}
-            <a href="https://wa.me/923001234567">
-              <img width="50px" height="50px" src={whatsapp} />
+            <a href='https://wa.me/923044441301'>
+              <img width='50px' height='50px' src={whatsapp} />
             </a>
           </div>
         </div>

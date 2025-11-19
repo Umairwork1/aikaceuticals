@@ -124,9 +124,10 @@ export default function Contact() {
           </form>
         </div>
       </div>
+
       <iframe
         className={classes['map']}
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6809.649114258874!2d73.0739596970358!3d31.41895949704219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a2f5be33f3%3A0x6a214e1f73edd114!2sClock%20Tower%20Faisalabad!5e0!3m2!1sen!2s!4v1746010396198!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850.7601555725646!2d74.29710386965289!3d31.468068698389857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190158784fc44d%3A0xd2b458dde58db286!2s2%2C%20Plot%20231%2C%20Block%20B%20Phase%201%20Johar%20Town%2C%20Lahore%2C%2054600%2C%20Pakistan!5e0!3m2!1sen!2s!4v1763540406347!5m2!1sen!2s"
         loading="lazy"
       ></iframe>
     </>

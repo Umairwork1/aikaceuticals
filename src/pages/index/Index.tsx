@@ -10,6 +10,15 @@ import Product from '../../components/Product/Product';
 import Heading from '../../components/Heading/Heading';
 import { useTranslation } from 'react-i18next';
 
+import Team from '../../components/Team/Team';
+import Team1 from "../../assets/team/Team1.jpg";
+import Team2 from "../../assets/team/Team2.jpg";
+import Team3 from "../../assets/team/Team3.jpg";
+import Team4 from "../../assets/team/Team4.jpg";
+import Team5 from "../../assets/team/Team5.jpg";
+import Team6 from "../../assets/team/Team6.jpg";
+
+
 export default function Index() {
   const { t } = useTranslation();
   return (
@@ -26,11 +35,23 @@ export default function Index() {
         </div>
         <div className={classes['products-container']}>
           <Product name="AVF Needless" image={avf_needless} />
+          <Product name="Disinfectants" image={disinfectants} />
           <Product name="Blood Tubing Line" image={blood_tubing_line} />
           <Product name="Dialysis Chair" image={dialysis_chair} />
           <Product name="Dialysis Machine" image={dialysis_machine} />
-          <Product name="Disinfectants" image={disinfectants} />
         </div>
+
+        <Team
+          members={[
+            { image: Team1 },
+            { image: Team2 },
+            { image: Team3 },
+            { image: Team4 },
+            { image: Team5 },
+            { image: Team6 },
+          ]}
+        />
+
       </div>
     </>
   );

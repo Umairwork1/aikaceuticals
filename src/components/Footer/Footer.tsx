@@ -39,7 +39,7 @@ export default function Footer() {
         <div className={classes['desc']}>
           <p>{t('footer_company_description')}</p>
           <p>
-            © {t('footer_copyright')} 2025 <span>Aikaceuticals.</span>{' '}
+            © {t('footer_copyright')} {new Date().getFullYear()} <span>Aikaceuticals.</span>{''}
             {t('footer_rights')}.
           </p>
         </div>

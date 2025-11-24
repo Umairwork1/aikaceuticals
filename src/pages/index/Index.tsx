@@ -1,4 +1,4 @@
-import banner from '../../assets/banner.png';
+import banner from '../../assets/banner_new.png';
 import arrow from '../../assets/arrow.svg';
 import avf_needless from '../../assets/products/AVF_Needless.jpeg';
 import blood_tubing_line from '../../assets/products/Blood_Tubing_Line.jpeg';

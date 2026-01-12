@@ -3,6 +3,8 @@ export const tr = {
     Languages: 'Diller',
 
     Home: 'Ana Sayfa',
+    'Products': 'Ürünler',
+    'Pre-Owned': 'İkinci El',
     'About Us': 'Hakkımızda',
     'Logistics & Storage': 'Lojistik ve Depolama',
     'Spare Parts': 'Yedek Parçalar',
@@ -11,28 +13,57 @@ export const tr = {
     'Contact Us': 'İletişim',
 
     'Get to Know Us Closer': 'Bizi Daha Yakından Tanıyın',
-    'Aikaceuticals Medical': 'Aikaceuticals Medikal',
+    'Aika Ceuticals Medical': 'Aika Ceuticals Medikal',
     home_description:
-      'Diyaliz sarf malzemelerinde uzmanlık ile yenilikçi çözümleri bir araya getiriyoruz. Endüstride önde gelen bir Avrupa üreticisi ve distribütörü olarak, ortaklarımızın benzersiz ihtiyaçlarına göre uyarlanmış yüksek kaliteli ürünler sunmaktan gurur duyuyoruz. Diyaliz bakımını optimize etmek ve tedavi sonuçlarını iyileştirmek için tasarlanmış kapsamlı bir diyaliz sarf malzemeleri yelpazesi sunuyoruz. Aikaceuticals Medikal ile sadece sarf malzemeleri değil, aynı zamanda başarınıza adanmış güvenilir bir ortak kazanıyorsunuz. Diyaliz bakımının geleceğini şekillendirmek için bize katılın, her yerde ve herkes için.',
+      'Diyaliz hizmetleri ve sarf malzemelerindeki uzmanlığı yenilikçi çözümlerle bir araya getiriyoruz. Güvenilir bir sektör ortağı olarak, iş ortaklarımızın özel ihtiyaçlarına göre uyarlanmış yüksek kaliteli ürünler sunmaktan gurur duyuyoruz. Hasta bakımını optimize etmek ve tedavi sonuçlarını iyileştirmek amacıyla tasarlanmış kapsamlı bir diyaliz sarf malzemeleri portföyü sunuyoruz. Aika Ceuticals ile yalnızca ürün değil, başarınıza bağlı güvenilir bir iş ortağı kazanırsınız. Diyaliz bakımının geleceğini her yerde ve herkes için birlikte şekillendirelim.',
 
-    about_description1: `Şirketimiz Aikaceuticals Medikal, 2012 yılından bu yana hemodiyaliz ekipmanlarının üretimi, dağıtımı ve hizmetleri alanında ortaklarımıza hizmet vermeye kendini adamıştır. Yılların birikmiş deneyimi ve kapsamlı Ar-Ge çabalarına dayanarak, şirketimiz gururla kendi markasını oluşturmuştur.`,
-    about_description2: `Hem Avrupa'da hem de Türkiye'deki tesislerden faaliyet göstererek, temel diyaliz sarf malzemeleri olan diyalizörler, kan setleri, fistül iğneleri, bikarbonat kartuşları gibi kendi markamız olan diyaliz sarf malzemelerini üretmekte ve dağıtmaktayız. Ayrıca hemodiyaliz tozları ve sıvı çözeltilerini üretmekte ve dağıtmaktayız. Diyaliz merkezlerine, hastanelere ve ortak firmalara doğrudan destek sağlayarak ihale gerekliliklerine uygunluk sağlıyoruz.`,
-    about_description3: `Ürün yelpazemiz, sıvı ve toz formda diyaliz çözeltileri, AV Setleri, AV Fistül ve Diyalizörleri içermektedir. Bu ürünler, İstanbul'daki merkezimizden dünya çapındaki distribütör ortaklarımıza tam zamanlı olarak yönetilmekte ve tedarik edilmektedir.`,
-    about_description4: `Avrupa standartlarına uygun diyaliz su arıtma sistemleri üreticisi olarak, sadece sarf malzeme portföyümüzle değil, aynı zamanda altyapı ile de diyaliz merkezlerine kapsamlı destek sunuyoruz. Bu, anahtar teslim diyaliz merkezi projeleri, danışmanlık hizmetleri ve tıbbi hizmet danışmanlığını içermektedir.`,
-    about_description5: `Ana fabrikamız, daha önce İzmir'de bulunan ve şu anda Kocaeli, Türkiye'de yer alan 1500m2'lik bir alanda çözümlerimizi ve tozlarımızı üretmektedir.`,
-    about_description6: `10L ve 5L paketlenmiş asit ve bikarbonat formülasyonlarını, Türkiye'deki birçok özel diyaliz merkezi ve devlet hastanesine tedarik ediyoruz.`,
-    about_description7: `Ürün portföyümüz şunları içermektedir:`,
-    about_description8: `Diyaliz sarf malzemeleri`,
-    about_description9: `Diyaliz çözeltileri ve toz formülasyonları`,
-    about_description10: `Sabit veya taşınabilir Ters Ozmoz Su Arıtma Sistemleri`,
-    about_description11: `Çözüm Karıştırıcılar`,
-    about_description12: `Diyaliz bikarbonatları`,
-    about_description13: `Tüm ihtiyaçlarınızı karşılamak için özel toplu paketler oluşturma seçeneğiyle kalıcı ve geçici kateterler.`,
-    about_description14: `Üretimimizin yanı sıra, Fresenius, Nipro, Asahi, Gambro, B-Braun, Arrow, Bard, Covidien ve Medcomp gibi dünya çapında tanınmış markaların ürünlerini de tedarik ediyoruz.`,
-    about_description15: `Dezenfektanlar`,
-    about_description16: `Tedarik aşamasında lojistik destek sunuyor ve acil ihtiyaçlar için DHL, UPS ve TNT/FEDEX kanalları aracılığıyla ekspres teslimat hizmetleri sağlıyoruz.`,
-    about_description17: `İhracat destinasyonlarımız ağırlıklı olarak Özbekistan, Azerbaycan, Kazakistan, Rusya, Afganistan, Arjantin, Togo, Bulgaristan, Yunanistan, Kongo, Papua Yeni Gine, Burundi, Tayland, Güney Afrika, Angola, Sudan, Tunus, Mısır, Fas, Cezayir, Nijer, Nijerya (Ikeja, Lagos), Kongo, Çad, Gabon, Gana, Kenya, Botsvana, Uganda, Somali, Yemen, Umman, Kamerun, Moritanya, Burkina Faso, Komorlar, Somaliland, Eritre, Somali, Cibuti dahil olmak üzere Doğu Afrika ülkeleri ve Çin, Sri Lanka, Filipinler, Malezya gibi Asya ülkelerini içermektedir.`,
-    about_description18: `Amacımız, markamızla tüm diyaliz ihtiyacı olan hastalar için daha verimli ve sorunsuz bir tedavi süreci sağlamak, ortaklarımıza sürdürülebilir yüksek kaliteli ürünler sunmak ve rekabet avantajlarını artırmaktır.`,
+    about_description1:
+      'Aika Ceuticals, 2012 yılından bu yana hemodiyaliz ekipmanları, dağıtım ve hizmetleri alanında iş ortaklarına hizmet vermeye kendini adamıştır. Yıllara dayanan deneyimimiz ve yoğun çalışmalarımız sayesinde markalarımızı başarıyla oluşturduk.',
+
+    about_description2:
+      'Tesislerimizden faaliyet göstererek, diyaliz sarf malzemelerinin satışında uzmanız. Bunlar arasında diyalizörler, kan setleri, fistül iğneleri, bikarbonat kartuşları ile hemodiyaliz tozları ve sıvı çözümlerinin dağıtımı yer almaktadır. Diyaliz merkezlerine, hastanelere ve iş ortaklarımıza doğrudan destek sağlayarak ihale gerekliliklerine tam uyum sağlıyoruz.',
+
+    about_description3:
+      'Ürün yelpazemiz; diyalizörler, AV setleri, AV fistüller ve sıvı ile toz formdaki diyaliz çözümlerini kapsamakta olup, bu ürünler Lahor’daki merkez ofisimizden ülke genelindeki distribütör ortaklarımıza düzenli olarak tedarik edilmektedir.',
+
+    about_description4:
+      'Ayrıca, standartlara uygun diyaliz su arıtma sistemlerinin distribütörü olarak, diyaliz merkezlerine yalnızca sarf malzemeleri değil, altyapı çözümleri de sunmaktayız. Buna anahtar teslim diyaliz merkezi projeleri, danışmanlık ve medikal hizmet danışmanlığı dahildir.',
+
+    about_description6:
+      'Pakistan’daki birçok özel diyaliz merkezi ve devlet hastanesine 4 litrelik paketlenmiş asit ve bikarbonat formülasyonları tedarik etmekteyiz.',
+
+    about_description7:
+      'Ürün portföyümüz şunları içerir:',
+
+    about_description8:
+      'Diyaliz sarf malzemeleri',
+
+    about_description9:
+      'Diyaliz çözümleri ve toz formülasyonlar',
+
+    about_description10:
+      'Sabit veya taşınabilir Ters Ozmoz Su Arıtma Sistemleri',
+
+    about_description11:
+      'Çözelti karıştırıcıları',
+
+    about_description12:
+      'Diyaliz bikarbonatları',
+
+    about_description13:
+      'Kalıcı ve geçici kateterler ile ihtiyaçlarınıza uygun özel toplu paketleme seçenekleri.',
+
+    about_description14:
+      'Hizmetlerimizin yanı sıra Fresenius, Nipro, Baihe & Bain, Gambro, B-Braun, Arrow, Bard, Covidien ve Medcomp gibi dünya çapında tanınmış markaların ürünlerini de tedarik etmekteyiz.',
+
+    about_description15:
+      'Dezenfektanlar',
+
+    about_description16:
+      'Satın alma sürecinde lojistik destek sunar ve acil ihtiyaçlar için tanınmış kargo kanalları aracılığıyla hızlı teslimat hizmetleri sağlarız.',
+
+    about_description18:
+      'Amacımız, diyaliz hastaları için daha verimli ve kesintisiz bir tedavi süreci sağlamak, iş ortaklarımıza sürdürülebilir ve yüksek kaliteli ürünler sunmak ve rekabet avantajlarını artırmaktır.',
 
     logistic_description1: `Aikaceuticals Medikal Lojistik ve Hemodiyaliz Depolama`,
     logistic_description2: `Dünya Çapında Nakliye ve Depolama, Lojistik Uzmanlığı ve Kalite Kontrolleri`,
@@ -50,11 +81,12 @@ export const tr = {
     spare_parts_description7: `Kan pompalarından sensörlere, valflerden kelepçelere ve dokunmatik ekranlara kadar – makinelerinizin en iyi şekilde çalışmasını sağlamak için ihtiyacınız olan her şeye sahibiz.`,
     spare_parts_description8: `Teklif isteyin veya ekibimizle bugün iletişime geçin.`,
     hd_used_machines_heading:
-      'Yüksek Kaliteli Kullanılmış Hemodiyaliz Makineleri Mevcut',
-    hd_used_machines_description1: `Güvenilir, uygun maliyetli diyaliz çözümleri mi arıyorsunuz? Önde gelen küresel markalardan özenle seçilmiş bir kullanılmış hemodiyaliz makineleri yelpazesi sunuyoruz. Her bir ünite tamamen test edilmiş, sıkı tıbbi standartlara uygun olarak yenilenmiş ve klinik kullanıma hazırdır.`,
+      'Yüksek Kaliteli İkinci El Hemodiyaliz Cihazları Mevcuttur',
+    hd_used_machines_description1:
+      'Güvenilir ve uygun maliyetli diyaliz çözümleri mi arıyorsunuz? Dünya çapında lider markalara ait, özenle seçilmiş ikinci el hemodiyaliz cihazları sunuyoruz. Her ünite, sıkı tıbbi standartlara uygun olarak tamamen test edilmiş olup klinik kullanım için hazırdır.',
     hd_used_machines_description2: `Sertifikalı Performans`,
     hd_used_machines_description3: `Kurulum ve Teknik Destek Mevcut`,
-    hd_used_machines_description4: `Güvendiğiniz Markalar – Fresenius`,
+    hd_used_machines_description4: `Güvendiğiniz Markalar`,
     hd_used_machines_description5: `Uygun Fiyatlandırma`,
     hd_used_machines_description6: `Diyaliz merkezinizi genişletiyor veya yeni bir tesis kuruyorsanız, ikinci el makinelerimiz kalite ve değer arasında mükemmel bir denge sunar. Mevcut envanter ve teklifler için bugün bizimle iletişime geçin.`,
     contact_us_heading: 'Hızlı Yardım ve Kolay İletişim',

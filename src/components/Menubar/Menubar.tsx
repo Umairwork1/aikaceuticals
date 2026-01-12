@@ -5,7 +5,7 @@ import ur_flag from '../../assets/flags/ur.png';
 import tr_flag from '../../assets/flags/tr.png';
 import classes from './menubar.module.css';
 import { Link } from '@tanstack/react-router';
-import { MenuProps } from './menubar.types';
+import { MenuProps, Menu } from './menubar.types';
 import Logo from '../Logo/Logo';
 import { useTranslation } from 'react-i18next';
 import { supportedLangues, handleLangClick } from '../../i18n';
@@ -29,10 +29,34 @@ export default function Menubar(props: MenuProps) {
         </a>
       </div>
       <div className={classes['menu-container']}>
-        {props.menus.map(({ title, url }, i) => (
-          <Link key={i} to={url} className={classes['menu']}>
-            {t(title)}
-          </Link>
+        {props.menus.map((menu: Menu, i) => (
+          <div 
+            key={i} 
+            className={`${classes['menu-item']} ${menu.subMenu && menu.subMenu.length > 0 ? classes['has-submenu'] : ''}`}
+          >
+            {menu.subMenu && menu.subMenu.length > 0 ? (
+              // Parent menu item with dropdown
+              <>
+                <span className={classes['menu']}>
+                  {t(menu.title)}
+                </span>
+                <div className={classes['submenu']}>
+                  {menu.subMenu.map((subItem, subIndex) => (
+                    <div key={subIndex} className={classes['submenu-item']}>
+                      <Link to={subItem.url} className={classes['submenu-link']}>
+                        {t(subItem.title)}
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : (
+              // Regular menu item without dropdown
+              <Link to={menu.url} className={classes['menu']}>
+                {t(menu.title)}
+              </Link>
+            )}
+          </div>
         ))}
         {/* <hr className={classes['divider']} /> */}
       </div>
@@ -41,6 +65,7 @@ export default function Menubar(props: MenuProps) {
           src={flags[i18n.language as keyof typeof flags]}
           width={30}
           height={30}
+          alt="Language flag"
         />
         <div className={classes['lang-popup']}>
           <ul>

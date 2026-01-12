@@ -11,7 +11,7 @@ export default function About() {
       <p>{t('about_description2')}</p>
       <p>{t('about_description3')}</p>
       <p>{t('about_description4')}</p>
-      <p>{t('about_description5')}</p>
+      {/* <p>{t('about_description5')}</p> */}
       <p>{t('about_description6')}</p>
       <b>{t('about_description7')}</b>
       <ul>
@@ -25,7 +25,7 @@ export default function About() {
         <li>{t('about_description15')}</li>
       </ul>
       <p>{t('about_description16')}</p>
-      <p>{t('about_description17')}</p>
+      {/* <p>{t('about_description17')}</p> */}
       <p>{t('about_description18')}</p>
     </div>
   );

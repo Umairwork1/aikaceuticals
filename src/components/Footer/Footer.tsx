@@ -26,6 +26,7 @@ export default function Footer() {
           <div className={classes['contact']}>
             <a href='mailto:info@aikaceuticals.com'>info@aikaceuticals.com</a>
             <a href='tel:+923044441301'>+92 304 4441301</a>
+            <a href='tel:+923044441301'>+92 304 4441303</a>
           </div>
           <div className={classes['social']}>
             {/* <img width="50px" height="50px" src={instagram} />
@@ -34,12 +35,15 @@ export default function Footer() {
             <a href='https://wa.me/923044441301'>
               <img width='50px' height='50px' src={whatsapp} />
             </a>
+            <a href='https://wa.me/923044441303'>
+              <img width='50px' height='50px' src={whatsapp} />
+            </a>
           </div>
         </div>
         <div className={classes['desc']}>
           <p>{t('footer_company_description')}</p>
           <p>
-            © {t('footer_copyright')} {new Date().getFullYear()} <span>Aikaceuticals.</span>{''}
+            © {t('footer_copyright')} {new Date().getFullYear()} <span>Aika Ceuticals.</span>{''}
             {t('footer_rights')}.
           </p>
         </div>

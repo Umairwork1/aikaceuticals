@@ -5,7 +5,7 @@ export type MenuProps = {
 export interface Menu {
   title: string;
   url: string;
-  submenu?: SubMenu[];
+  subMenu?: SubMenu[];
 }
 
-type SubMenu = Omit<Menu, 'submenu'>;
+export type SubMenu = Omit<Menu, 'subMenu'>;

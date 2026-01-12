@@ -25,7 +25,7 @@ export default function Index() {
     <>
       <img width="100%" height="auto" src={banner} />
       <div className={classes['container']}>
-        <Heading text={t('Aikaceuticals Medical')} />
+        <Heading text={t('Aika Ceuticals')} />
         <p>{t('home_description')}</p>
         <div className={classes['link-container']}>
           <a href="/contact-us">
@@ -34,6 +34,8 @@ export default function Index() {
           <img width="25px" height="25px" src={arrow} />
         </div>
         <div className={classes['products-container']}>
+          <Product name="AVF Needless" image={avf_needless} />
+          <Product name="AVF Needless" image={avf_needless} />
           <Product name="AVF Needless" image={avf_needless} />
           <Product name="Disinfectants" image={disinfectants} />
           <Product name="Blood Tubing Line" image={blood_tubing_line} />

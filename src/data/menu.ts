@@ -11,7 +11,14 @@ export const menus = [
   // },
   // { url: '/reverse-osmosis', title: 'Reverse Osmosis', subMenu: [] },
   // { url: '/spare-parts', title: 'Spare Parts', subMenu: [] },
-  { url: '/hd-used-machines', title: 'HD Used Machines', subMenu: [] },
+  {
+    url: '#', // Use '#' for parent menu with dropdown
+    title: 'Products',
+    subMenu: [
+      { url: '/hd-used-machines', title: 'Pre-Owned' },
+      // { url: '/', title: 'RO System' }
+    ]
+  },
   { url: '/contact-us', title: 'Contact', subMenu: [] },
   // { url: '/blog', title: 'Blog', subMenu: [] },
 ];

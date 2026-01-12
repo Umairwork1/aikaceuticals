@@ -3,6 +3,8 @@ export const es = {
     Languages: 'Idiomas',
 
     Home: 'Inicio',
+    'Products': 'Productos',
+    'Pre-Owned': 'Usados',
     'About Us': 'Sobre Nosotros',
     'Logistics & Storage': 'Logística y Almacenamiento',
     'Spare Parts': 'Repuestos',
@@ -11,74 +13,65 @@ export const es = {
     'Contact Us': 'Contáctenos',
 
     'Get to Know Us Closer': 'Conócenos Más de Cerca',
-    'Aikaceuticals Medical': 'Aikaceuticals Medical',
+    'Aika Ceuticals Medical': 'Aika Ceuticals Medical',
     home_description:
-      'Donde la experiencia en consumibles de diálisis se encuentra con soluciones innovadoras. Como fabricante y distribuidor líder en Europa, nos enorgullecemos de ofrecer productos de alta calidad adaptados a las necesidades únicas de nuestros socios. Proporcionamos una gama completa de consumibles de diálisis, diseñados para optimizar la atención al paciente y mejorar los resultados del tratamiento. Con Aikaceuticals Medical, no solo obtienes consumibles, sino un socio confiable dedicado a tu éxito. Únete a nosotros para dar forma al futuro del cuidado de la diálisis, en todas partes y para todos.',
+      'Donde la experiencia en servicios y consumibles de diálisis se une con soluciones innovadoras. Como socio confiable del sector, nos enorgullece ofrecer productos de alta calidad adaptados a las necesidades específicas de nuestros colaboradores. Proporcionamos una gama integral de consumibles de diálisis diseñados para optimizar la atención al paciente y mejorar los resultados del tratamiento. Con Aika Ceuticals, obtienes más que productos: ganas un socio comprometido con tu éxito. Únete a nosotros para dar forma al futuro de la atención en diálisis, en todo lugar y para todos.',
 
-    about_description1: `Nuestra empresa, Aikaceuticals Medical, se ha dedicado a servir a
-                              nuestros socios en el campo de la fabricación, distribución y servicios
-                              de equipos de hemodiálisis desde 2012. Basándonos en años de experiencia
-                              acumulada y extensos esfuerzos de I+D, nuestra empresa ha establecido
-                              con orgullo su marca."`,
-    about_description2: `Operando desde instalaciones tanto en Europa como en Turquía, nos
-                              especializamos en producir nuestra propia marca de consumibles de
-                              diálisis, que incluyen desechables básicos como dializadores, líneas de
-                              sangre, agujas de fístula, cartuchos de bicarbonato, así como la
-                              fabricación y distribución de polvos y soluciones líquidas para
-                              hemodiálisis. Brindamos apoyo directo a centros de diálisis, hospitales
-                              y empresas asociadas, asegurando el cumplimiento de los requisitos de
-                              licitación.`,
-    about_description3: `Nuestra gama de productos incluye dializadores, conjuntos AV, fístulas
-                              AV y soluciones de diálisis en formas líquidas y en polvo, que se
-                              gestionan y suministran a nuestros socios distribuidores en todo el
-                              mundo desde nuestra sede en Estambul de forma permanente.`,
-    about_description4: `Además, como fabricante de sistemas de purificación de agua para
-                              diálisis que cumplen con los estándares europeos, ofrecemos apoyo
-                              integral a los centros de diálisis, no solo con nuestro portafolio de
-                              consumibles, sino también con infraestructura. Esto incluye proyectos
-                              llave en mano para centros de diálisis, servicios de consultoría y
-                              asesoramiento médico.`,
-    about_description5: `Nuestra fábrica principal, ahora ubicada en Kocaeli, Turquía, estaba
-                              previamente en Izmir y abarca un área de 1500m2 donde fabricamos
-                              nuestras soluciones y polvos.`,
-    about_description6: `Suministramos formulaciones de ácido y bicarbonato empaquetadas en
-                              10L y 5L a muchos centros de diálisis privados y hospitales estatales en
-                              Turquía.`,
-    about_description7: `Nuestro portafolio de productos incluye:`,
-    about_description8: `Consumibles de diálisis`,
-    about_description9: `Soluciones de diálisis y formulaciones en polvo`,
-    about_description10: `Sistemas de purificación de agua por ósmosis inversa fijos o
-                              portátiles`,
-    about_description11: `Mezcladores de soluciones`,
-    about_description12: `Bicarbonatos para diálisis`,
-    about_description13: `Catéteres permanentes y temporales, con la opción de crear paquetes
-                              personalizados a granel para satisfacer todas tus necesidades.`,
-    about_description14: `Además de nuestra fabricación, también suministramos productos de
-                              marcas de renombre mundial como Fresenius, Nipro, Asahi, Gambro,
-                              B-Braun, Arrow, Bard, Covidien y Medcomp.`,
-    about_description15: `Desinfectantes`,
-    about_description16: `Ofrecemos apoyo logístico durante la fase de adquisición y
-                              proporcionamos servicios de entrega exprés a través de canales DHL, UPS
-                              y TNT/FEDEX para necesidades urgentes.`,
-    about_description17: `Nuestros destinos de exportación incluyen principalmente Uzbekistán,
-                              Azerbaiyán, Kazajistán, Rusia, Afganistán, Argentina, Togo, Bulgaria,
-                              Grecia, Congo, Papúa Nueva Guinea, Burundi, Tailandia, Sudáfrica,
-                              Angola, Sudán, Túnez, Egipto, Marruecos, Argelia, Níger, Nigeria
-                              (Ikeja, Lagos), Congo, Chad, Gabón, Ghana, Kenia, Botsuana, Uganda,
-                              Somalia, Yemen, Omán, Camerún, Mauritania, Burkina Faso, Comoras,
-                              Somalilandia, Eritrea, Somalia, países del este de África, incluidos
-                              Yibuti, y países asiáticos como China, Sri Lanka, Filipinas, Malasia.`,
-    about_description18: `Nuestro objetivo es garantizar un proceso de tratamiento más
-                              eficiente y fluido para todos los pacientes que necesitan diálisis con
-                              nuestra marca, proporcionando productos sostenibles de alta calidad a
-                              nuestros socios y mejorando su ventaja competitiva.`,
+    about_description1:
+      'Aika Ceuticals ha estado dedicada desde 2012 a servir a sus socios en el ámbito de los equipos de hemodiálisis, la distribución y los servicios. Gracias a años de experiencia acumulada y esfuerzos continuos, la empresa ha establecido con orgullo sus marcas.',
 
-    logistic_description1: `Logística y Almacenamiento de Hemodiálisis de Aikaceuticals Medical`,
+    about_description2:
+      'Desde nuestras instalaciones, nos especializamos en la venta de consumibles de diálisis, que incluyen desechables básicos como dializadores, líneas de sangre, agujas de fístula, cartuchos de bicarbonato, así como la distribución de polvos y soluciones líquidas para hemodiálisis. Brindamos soporte directo a centros de diálisis, hospitales y empresas asociadas, garantizando el cumplimiento de los requisitos de licitación.',
+
+    about_description3:
+      'Nuestro portafolio de productos incluye dializadores, conjuntos AV, fístulas AV y soluciones de diálisis en forma líquida y en polvo, los cuales se gestionan y suministran a nuestros distribuidores en todo el país desde nuestra sede central en Lahore.',
+
+    about_description4:
+      'Además, como distribuidores de sistemas de purificación de agua para diálisis que cumplen con los estándares, ofrecemos soporte integral a los centros de diálisis no solo con nuestro portafolio de consumibles, sino también con infraestructura. Esto incluye proyectos llave en mano, servicios de consultoría y asesoría médica.',
+
+    about_description6:
+      'Suministramos formulaciones de ácido y bicarbonato en envases de 4 litros a numerosos centros de diálisis privados y hospitales estatales en Pakistán.',
+
+    about_description7:
+      'Nuestro portafolio de productos incluye:',
+
+    about_description8:
+      'Consumibles de diálisis',
+
+    about_description9:
+      'Soluciones de diálisis y formulaciones en polvo',
+
+    about_description10:
+      'Sistemas de purificación de agua por ósmosis inversa fijos o portátiles',
+
+    about_description11:
+      'Mezcladores de soluciones',
+
+    about_description12:
+      'Bicarbonatos para diálisis',
+
+    about_description13:
+      'Catéteres permanentes y temporales, con la opción de crear paquetes personalizados al por mayor para satisfacer todas sus necesidades.',
+
+    about_description14:
+      'Además de nuestros servicios, también suministramos productos de marcas reconocidas a nivel mundial como Fresenius, Nipro, Baihe & Bain, Gambro, B-Braun, Arrow, Bard, Covidien y Medcomp.',
+
+    about_description15:
+      'Desinfectantes',
+
+    about_description16:
+      'Ofrecemos soporte logístico durante la fase de adquisición y proporcionamos servicios de entrega exprés a través de canales de mensajería reconocidos para necesidades urgentes.',
+
+    about_description18:
+      'Nuestro objetivo es garantizar un proceso de tratamiento más eficiente y fluido para todos los pacientes que requieren diálisis, proporcionando productos sostenibles y de alta calidad a nuestros socios y fortaleciendo su ventaja competitiva.'
+    ,
+
+    logistic_description1: `Logística y Almacenamiento de Hemodiálisis de Aika Ceuticals Medical`,
     logistic_description2: `Envío y Almacenamiento Mundial, Experiencia en Logística y Controles
                               de Calidad`,
-    logistic_description3: `La empresa Aikaceuticals Medical ofrece una variedad de servicios
+    logistic_description3: `La empresa Aika Ceuticals Medical ofrece una variedad de servicios
                               logísticos que nos transforman de distribuidores a socios logísticos.
-                              Aikaceuticals Global ha desarrollado una flota que es el servicio
+                              Aika Ceuticals Global ha desarrollado una flota que es el servicio
                               perfecto para cualquier entrega que requiera un tiempo específico o
                               necesite atención especial. Tres opciones de entrega que ahorran espacio
                               y tiempo están disponibles:`,
@@ -117,14 +110,12 @@ export const es = {
     spare_parts_description8: `Solicita una cotización o contacta a nuestro equipo hoy mismo.`,
     hd_used_machines_heading:
       'Máquinas de Hemodiálisis Usadas de Alta Calidad Disponibles',
-    hd_used_machines_description1: `¿Buscas soluciones de diálisis confiables y rentables? Ofrecemos una
-                                    gama cuidadosamente seleccionada de máquinas de hemodiálisis usadas de
-                                    marcas globales líderes. Cada unidad está completamente probada,
-                                    reacondicionada para cumplir con estrictos estándares médicos y lista
-                                    para uso clínico.`,
+    hd_used_machines_description1:
+      '¿Busca soluciones de diálisis confiables y rentables? Ofrecemos una gama cuidadosamente seleccionada de máquinas de hemodiálisis usadas de marcas líderes a nivel mundial. Cada unidad es sometida a pruebas exhaustivas para cumplir con estrictos estándares médicos y está lista para su uso clínico.',
+
     hd_used_machines_description2: `Rendimiento Certificado`,
     hd_used_machines_description3: `Instalación y Soporte Técnico Disponibles`,
-    hd_used_machines_description4: `Marcas de Confianza – Fresenius`,
+    hd_used_machines_description4: `Marcas de Confianza`,
     hd_used_machines_description5: `Precios Asequibles`,
     hd_used_machines_description6: `Ya sea que estés ampliando tu centro de diálisis o estableciendo una
                                     nueva instalación, nuestras máquinas de segunda mano ofrecen el

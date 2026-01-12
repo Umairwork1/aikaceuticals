@@ -25,20 +25,65 @@
   justify-content: center;
   align-items: center;
   border: 0px solid black;
+  position: relative;
+}
+
+.menu-item {
+  position: relative;
+  margin: 0 10px;
 }
 
 .menu {
   font-size: 18.5px;
-  margin: 0 10px;
   color: #484848;
   font-style: normal;
   text-decoration: none;
   font-weight: 600;
+  padding: 10px 0;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .menu:hover {
   color: var(--main);
   transition: 0.4s;
+}
+
+/* Dropdown styles */
+.has-submenu:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
+  z-index: 100;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+.submenu-item {
+  display: block;
+}
+
+.submenu-link {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #484848;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.submenu-link:hover {
+  color: var(--main);
+  background-color: #f5f5f5;
+  transition: 0.3s;
 }
 
 .divider {
@@ -56,6 +101,7 @@
   /* color: #484848; */
   /* border-radius: 5px; */
   padding: 10px;
+  position: relative;
 }
 
 .lang-button:hover {

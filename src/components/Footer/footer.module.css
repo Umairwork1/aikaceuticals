@@ -85,9 +85,8 @@
   padding: 10px;
   background: white;
   border-radius: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: revert;
+  display: grid;
+  margin-top: 15px;
 }
 
 .desc {

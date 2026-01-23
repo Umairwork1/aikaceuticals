@@ -1,0 +1,46 @@
+.container {
+  margin: var(--margin);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-cell {
+  width: 50%;
+}
+
+.img-cell {
+  width: 50%;
+  height: 500px;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.button {
+  background-color: var(--main);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.img-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}

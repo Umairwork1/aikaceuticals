@@ -30,8 +30,8 @@ export default function Menubar(props: MenuProps) {
       </div>
       <div className={classes['menu-container']}>
         {props.menus.map((menu: Menu, i) => (
-          <div 
-            key={i} 
+          <div
+            key={i}
             className={`${classes['menu-item']} ${menu.subMenu && menu.subMenu.length > 0 ? classes['has-submenu'] : ''}`}
           >
             {menu.subMenu && menu.subMenu.length > 0 ? (

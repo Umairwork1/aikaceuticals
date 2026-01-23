@@ -89,6 +89,25 @@ export const tr = {
     hd_used_machines_description4: `Güvendiğiniz Markalar`,
     hd_used_machines_description5: `Uygun Fiyatlandırma`,
     hd_used_machines_description6: `Diyaliz merkezinizi genişletiyor veya yeni bir tesis kuruyorsanız, ikinci el makinelerimiz kalite ve değer arasında mükemmel bir denge sunar. Mevcut envanter ve teklifler için bugün bizimle iletişime geçin.`,
+    ro_system_heading: 'Diyaliz Reverse Osmoz (RO) Su Sistemleri',
+    ro_system_description1: `Saf su, güvenli ve etkili hemodiyaliz tedavisinin temelidir.
+Diyaliz Reverse Osmoz (RO) Su Arıtma Sistemlerimiz,
+uluslararası diyaliz su kalite standartlarını karşılayacak şekilde
+tasarlanmış olup hasta güvenliği ve cihaz performansını garanti eder.`,
+
+    ro_system_description2: `Diyaliz standartlarına uygun medikal su arıtma`,
+
+    ro_system_description3: `Sabit ve taşınabilir sistem seçenekleri`,
+
+    ro_system_description4: `Anahtar teslim kurulum, devreye alma ve teknik destek`,
+
+    ro_system_description5: `Hastaneler, diyaliz merkezleri ve mobil üniteler için uygundur`,
+
+    ro_system_description6: `Altyapı desteğimizin bir parçası olarak Aika Ceuticals,
+diyaliz merkezleri için kapsamlı RO su arıtma çözümleri sunar —
+sistem seçiminden kuruluma, danışmanlık ve satış sonrası desteğe kadar.
+Tesisiniz için güvenilir ve standartlara uygun bir diyaliz su sistemi kurmak için bizimle iletişime geçin.`,
+
     contact_us_heading: 'Hızlı Yardım ve Kolay İletişim',
     contact_us_description1: `Bir sorunuz, geri bildiriminiz veya iş birliği teklifiniz varsa, lütfen iletişim formunu doldurarak bizimle iletişime geçin.`,
     contact_us_description2: `En kısa sürede size geri döneceğiz.`,

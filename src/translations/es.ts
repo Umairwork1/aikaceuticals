@@ -121,6 +121,28 @@ export const es = {
                                     nueva instalación, nuestras máquinas de segunda mano ofrecen el
                                     equilibrio perfecto entre calidad y valor. Contáctanos hoy para
                                     inventario actual y cotizaciones.`,
+
+    ro_system_heading: 'Sistemas de Ósmosis Inversa (RO) para Diálisis',
+
+    ro_system_description1: `El agua pura es la base de un tratamiento de hemodiálisis seguro y eficaz.
+Nuestros sistemas de purificación de agua por ósmosis inversa (RO) para diálisis
+están diseñados para cumplir con los estándares internacionales de calidad del agua,
+garantizando la seguridad del paciente y el rendimiento óptimo del equipo.`,
+
+    ro_system_description2: `Purificación de agua de grado médico conforme a estándares de diálisis`,
+
+    ro_system_description3: `Disponibles en configuraciones fijas y portátiles`,
+
+    ro_system_description4: `Instalación, puesta en marcha y soporte técnico integral`,
+
+    ro_system_description5: `Adecuados para hospitales, centros de diálisis y unidades móviles`,
+
+    ro_system_description6: `Como parte de nuestro soporte de infraestructura, Aika Ceuticals
+ofrece soluciones completas de tratamiento de agua RO para centros de diálisis —
+desde la selección del sistema y la instalación hasta la consultoría y el soporte postventa.
+Contáctenos para construir un sistema de agua para diálisis confiable y conforme a normativas.`,
+
+
     contact_us_heading: 'Ayuda Rápida y Comunicación Fácil',
     contact_us_description1: `Si tienes una pregunta, comentario u oferta de cooperación,
                                                 contáctanos llenando el formulario de contacto.`,
